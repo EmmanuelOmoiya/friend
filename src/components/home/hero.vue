@@ -48,7 +48,7 @@
 </script>
 <template>
     <div class="min-h-screen relative" @mouseenter="startTimer" @mouseleave="resetTimer" @touchstart="startTimer" @touchend="resetTimer">
-        <video ref="backgroundVideo" :poster="posterImage" class="video position absolute top-0 left-0 w-full h-full object-cover -z-1" loop muted>
+        <video ref="backgroundVideo" :poster="posterImage" class="video position absolute top-0 left-0 w-full h-full object-cover -z-1" loop muted="true" playsinline webkit-playsinline >
             <source :src="videoSource" type="video/mp4" />
         </video>
         <transition name="modal-fade-slide">

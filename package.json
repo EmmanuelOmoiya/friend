@@ -8,6 +8,11 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
+  "author": {
+    "name": "Emmanuel Omoiya",
+    "email": "emmanuelomoiya6@gmail.com",
+    "url": "https://x.com/Emmanuel_Omoiya"
+  },
   "dependencies": {
     "vue": "^3.4.37",
     "vue-meta": "^2.4.0",
