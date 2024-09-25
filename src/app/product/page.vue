@@ -85,8 +85,8 @@
                     <a href="https://x.com/Emmanuel_Omoiya" target="_blank" class="word" :class="{active: current === 'emmanuel'}"> built by Emmanuel</a>
                 </div>
                 <div class="flex avatar-container">
-                    <img src="/_static/images/samuel.jpg" class="w-[2rem] avatar avatar1 h-[2rem] object-center rounded-full" :class="{ active: current === 'samuel', separated: isSeparated }" width="500" height="500" alt="" />
-                    <img src="/_static/images/emmanuel.jpg" class="w-[2rem] avatar avatar2 -ml-3 h-[2rem] object-center rounded-full" :class="{ active: current === 'emmanuel', separated: isSeparated }" width="500" height="500" alt="" />
+                    <a href="https://x.com/IHarbaty" target="_blank" ><img src="/_static/images/samuel.jpg" class="w-[1.5rem] avatar avatar1 h-[1.5rem] object-center rounded-full cursor-pointer" :class="{ active: current === 'samuel', separated: isSeparated }" width="500" height="500" alt="" /></a>
+                    <a href="https://x.com/Emmanuel_Omoiya" target="_blank"><img src="/_static/images/emmanuel.jpg" class="w-[1.5rem] avatar avatar2 -ml-3 h-[1.5rem] object-center rounded-full cursor-pointer" :class="{ active: current === 'emmanuel', separated: isSeparated }" width="500" height="500" alt="" /></a>
                 </div>
             </div>
             <div>
@@ -101,8 +101,8 @@
                     <a href="https://x.com/Emmanuel_Omoiya" target="_blank" class="word" :class="{active: current === 'emmanuel'}"> built by Emmanuel</a>
                 </div>
                 <div class="flex avatar-container">
-                    <img src="/_static/images/samuel.jpg" class="w-[1.5rem] avatar avatar1 h-[1.5rem] object-center rounded-full" :class="{ active: current === 'samuel', separated: isSeparated }" width="500" height="500" alt="" />
-                    <img src="/_static/images/emmanuel.jpg" class="w-[1.5rem] avatar avatar2 -ml-3 h-[1.5rem] object-center rounded-full" :class="{ active: current === 'emmanuel', separated: isSeparated }" width="500" height="500" alt="" />
+                    <a href="https://x.com/IHarbaty" target="_blank" ><img src="/_static/images/samuel.jpg" class="w-[1.5rem] avatar avatar1 h-[1.5rem] object-center rounded-full cursor-pointer" :class="{ active: current === 'samuel', separated: isSeparated }" width="500" height="500" alt="" /></a>
+                    <a href="https://x.com/Emmanuel_Omoiya" target="_blank"><img src="/_static/images/emmanuel.jpg" class="w-[1.5rem] avatar avatar2 -ml-3 h-[1.5rem] object-center rounded-full cursor-pointer" :class="{ active: current === 'emmanuel', separated: isSeparated }" width="500" height="500" alt="" /></a>
                 </div>
             </div>
             <div class="flex w-full justify-between">

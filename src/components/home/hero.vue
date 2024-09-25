@@ -85,7 +85,7 @@
                     <button v-if="isPlaying"  class="rounded-full text-white w-[2.5rem] h-[2.5rem] flex items-center text-center border border-white bg-transparent text-center p-[.5rem] hover:bg-white hover:text-black block justify-center sm:hidden" @click="togglePlayPauseVideo">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="100px" width="100px" xmlns="http://www.w3.org/2000/svg"><path d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z"></path></svg>
                     </button>
-                    <a href="#pre-order" class="px-[1.5rem] rounded-[50px] border border-white bg-white items-center text-black text-center py-[.4rem] flex gap-x-3 hover:bg-transparent hover:text-white">Pre-Order <img class="sm:block hidden w-[1rem]" src="/_static/images/right-arrow.svg" width="30" height="30" alt="right-arrow" /> </a>
+                    <router-link to="/product" class="px-[1.5rem] rounded-[50px] border border-white bg-white items-center text-black text-center py-[.4rem] flex gap-x-3 hover:bg-transparent hover:text-white">Pre-Order <img class="sm:block hidden w-[1rem]" src="/_static/images/right-arrow.svg" width="30" height="30" alt="right-arrow" /> </router-link>
                 </div>
             </div>
         </div>
