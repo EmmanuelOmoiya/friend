@@ -65,7 +65,7 @@
         </transition>
         <div class="flex justify-end items-end flex-col bg-[#000]/20 min-h-screen h-full z-9 relative p-4 sm:p-6">
             <div class="sm:flex justify-between items-end w-full z-9 text-white">
-                <div class="text-left mb-4 sm:mb-0 text-[1.6rem] sm:text-[1.9rem] leading-[1.75rem] md:text-[2.5rem] lg:text-[3.3rem] md:leading-[2.4rem] lg:leading-[3.3rem]">
+                <div class="text-left font-[grotesk] mb-4 sm:mb-0 text-[1.8rem] sm:text-[1.9rem] leading-[1.75rem] md:text-[2.5rem] lg:text-[3.3rem] md:leading-[2.4rem] lg:leading-[3.3rem]">
                     <p class="">Introducing Friend.</p>
                     <p class="">not imaginary.</p>
                 </div>

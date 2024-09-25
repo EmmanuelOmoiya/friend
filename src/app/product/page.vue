@@ -68,7 +68,7 @@
                 Work in progress, maybe
             </p>
             <h1 class="text-xl sm:text-[2.3rem] md:text-5xl font-bold max-w-[90%] sm:max-w-2xl">We do not have the resources to redesign this page 🥲</h1>
-            <button class="bg-[#101010] w-fit py-[.5rem] px-[2rem] text-white rounded-[40px] mt-5 sm:mt-10 text-sm">Home</button>
+            <router-link to="/" class="bg-[#101010] w-fit py-[.5rem] px-[2rem] text-white rounded-[40px] mt-5 sm:mt-10 text-sm">Home</router-link>
         </div>
         <div class="flex text-xs sm:text-sm items-center text-center justify-between absolute bottom-0 w-full p-4 sm:p-6 py-4 z-8 text-black">
             <div class="flex gap-x-2 sm:gap-x-4">

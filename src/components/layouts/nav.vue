@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed w-full z-9 p-4 sm:p-6 sm:px-8 tex-sm " style="z-index: 9; font-family: 'grotesk-thin'">
+    <nav class="fixed w-full z-9 p-4 sm:p-6 sm:px-8 tex-sm " style="z-index: 9; font-family: 'grotesk'">
         <div class="flex gap-x-4 sm:gap-x-8 text-white">
             <router-link to="/">
                 <p>Home</p>

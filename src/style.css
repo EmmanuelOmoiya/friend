@@ -37,7 +37,7 @@
 #app {
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 0.08rem;
+  /* letter-spacing: 0.08rem; */
 }
 
 @font-face {
