@@ -74,7 +74,7 @@
                 <svg v-if="!isMuted" stroke="#fff" fill="#fff"  stroke-width="0" viewBox="0 0 512 512" height="2.2em" width="2.2em" xmlns="http://www.w3.org/2000/svg"><path d="M326.9 145.6c-2.2-1.1-4.6-1.6-6.9-1.6-3.6 0-7.1 1.2-10 3.5L244.8 200H192c-8.8 0-16 7.2-16 16v80c0 8.8 7.2 16 16 16h52.8l65.2 52.5c2.9 2.3 6.5 3.5 10 3.5 2.3 0 4.7-.5 6.9-1.6 5.6-2.7 9.1-8.3 9.1-14.4V160c0-6.2-3.5-11.8-9.1-14.4z"></path></svg>
             </button>
             <div class="sm:flex justify-between items-end w-full z-9 text-white">
-                <div class="text-left font-[grotesk-thin] mb-4 sm:mb-0 text-[1.8rem] sm:text-[1.9rem] leading-[1.75rem] md:text-[2.5rem] lg:text-[3.3rem] md:leading-[2.4rem] lg:leading-[3.3rem]">
+                <div class="text-left font-[grotesk] sm:font-[grotesk-thin] mb-4 sm:mb-0 text-[1.8rem] sm:text-[1.9rem] leading-[1.75rem] md:text-[2.5rem] lg:text-[3.3rem] md:leading-[2.4rem] lg:leading-[3.3rem]">
                     <p class="">Introducing Friend.</p>
                     <p class="">not imaginary.</p>
                 </div>
