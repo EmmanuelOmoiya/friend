@@ -1,5 +1,8 @@
-import Home from '../app/home/page.vue'
+// @ts-ignore
+import Home from '../app/home/page.vue' 
+// @ts-ignore
 import Blog from '../app/blog/page.vue'
+// @ts-ignore
 import Product from '../app/product/page.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
