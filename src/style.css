@@ -1,0 +1,139 @@
+
+@font-face {
+  font-family: "montreal";
+  src: url('./NeueMontreal-Regular.otf');
+}
+
+.router-link-active div {
+  font-family: 'montreal';
+  display: block;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+#app {
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.08rem;
+}
+
+@font-face {
+  font-family: 'NeueHaasGrotesk';
+  src: url('../public/_static/fonts/HaasGroteskRegular.otf') format('otf');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'NeueHaasGroteskMedium';
+  src: url('../public/_static/fonts/HaasGroteskMedium.otf') format('otf');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'NeueHaasGroteskBold';
+  src: url('../public/_static/fonts/HaasGroteskBold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "montreal";
+  src: url('./NeueMontreal-Regular.otf');
+}
+
+.router-link-active div {
+  font-family: 'montreal';
+  display: block;
+}
+
+.router-link-active p {
+  opacity: 1;
+  font-family: 'grotesk';
+  font-weight: bold;
+}
+
+.router-link div {
+  display: hidden;
+}
+
+.word {
+  color: #b6b6b6;
+  transition: color 1.5s ease-in-out ;
+}
+
+.word.active {
+  color: #000000;
+}
+
+.avatar{
+  opacity: 0.3;
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+
+.avatar.active {
+  opacity: 1;
+};
+
+.avatar2.separated{
+  margin-left: .75rem;
+}
+
+.avatar1.active + .avatar2{
+  margin-left: .35rem;
+}
+
+.avatar2.active, .avatar2{
+  margin-left: .35rem;
+}
+
+.modal {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.modal-fade-slide-enter-active, .modal-fade-slide-leave-active {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.modal-fade-slide-enter-from {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+.modal-fade-slide-enter-to {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.modal-fade-slide-leave-to{
+  opacity: 0;
+  transform: translateY(-100px);
+}
